@@ -7,6 +7,7 @@ if (regexPattern.test(pinCode)) {
   console.log("Invalid Pin code");
 }
 
+
 let pinCode1 = "A400088";
 let regexPattern1 = /^[1-9]{1}[0-9]{5}$/;
 
@@ -16,6 +17,7 @@ if (regexPattern1.test(pinCode1)) {
   console.log("Invalid PIN code");
 }
 
+
 let pinCode2 = "400088B";
 let regexPattern2 = /^[1-9][0-9]{4}[0-9]$/;
 
@@ -24,6 +26,7 @@ if (regexPattern2.test(pinCode2)) {
 } else {
   console.log("Invalid PIN code");
 }
+
 
 let pinCode3 = "400 088";
 let pinCode4 = "400088";
@@ -40,3 +43,6 @@ if (regexPattern3.test(pinCode4)) {
 } else {
   console.log("Invalid PIN code");
 }
+
+}
+
