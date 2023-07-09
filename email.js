@@ -23,3 +23,13 @@ if (regexPattern2.test(email2)) {
 } else {
   console.log("Invalid email address");
 }
+
+let email3 = "abc.xyz@bridgelabz.co.in";
+let regexPattern3 = /^abc\.[a-zA-Z]+@[a-zA-Z0-9]+[_+-.]+/;
+
+if (regexPattern3.test(email3)) {
+  console.log("Valid email address");
+} else {
+  console.log("Invalid email address");
+}
+
